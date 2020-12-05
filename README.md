@@ -41,9 +41,8 @@ $ yarn run dev
 
 ## Autores
 
-**Bianca Alves**
-
-**Victor Duarte**
+ - Bianca Alves
+- Victor Duarte
 
 ## Licença
  
