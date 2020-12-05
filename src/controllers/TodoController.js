@@ -23,13 +23,11 @@ module.exports = {
   async create(req, res) {
     try {
       const todo = req.body
-      console.log(todo)
 
       await Todo.create(todo)
 
       res.json({ message: "Cadastrado com sucesso" });
     } catch (err) {
-      console.log(err)
       res.json({ error: "Não foi possível cadastrar" });
     }
   },
